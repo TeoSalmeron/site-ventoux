@@ -1,6 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Viaoda+Libre&display=swap");
 nav {
   font-family: "Poppins", sans-serif;
+}
+
+.first-section {
+  font-family: "Hind Siliguri", sans-serif;
+  text-align: center;
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  background-color: #C3E5F5;
+  padding: 30px 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-section h1 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: bold;
+}
+
+.first-section img {
+  width: 150px;
 }
 /*# sourceMappingURL=style.css.map */
