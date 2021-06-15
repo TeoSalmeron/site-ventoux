@@ -16,7 +16,7 @@ $font3 : 'Roboto', sans-serif;
 $font4 : 'Viaoda Libre', cursive;
 
 // RESET STYLESHEET
-*, p {
+*, p, h1, h2, h3, h4, h5, h6, body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -69,7 +69,7 @@ nav {
     background-color: #fff;
 }
 
-.second-section span { // title "Qui sommes-nous?"
+.second-section h2 { // title "Qui sommes-nous?"
     font-size: 35px;
     font-family: $font4;
     font-weight: bold;
@@ -97,4 +97,54 @@ nav {
     font-family: $font2;
     text-align: center;
     // font-weight: bold;
+}
+
+// THIRD SECTION
+.third-section {
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
+    height: 400px;
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section h2 {
+    padding: 15px 0px;
+    font-family: $font4;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.31);
+}
+
+.third-section .interact-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.interact-box button {
+    text-transform: uppercase;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 40px;
+    border: none;
+    padding: 5px 10px;
+    height: 70px;
+    font-size: 14px;
+}
+
+.interact-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.interact-box a {
+    font-family: $font1;
+    color: $color2;
 }

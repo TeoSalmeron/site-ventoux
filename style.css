@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Viaoda+Libre&display=swap");
-*, p {
+*, p, h1, h2, h3, h4, h5, h6, body, html {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -65,7 +65,7 @@ nav {
   background-color: #fff;
 }
 
-.second-section span {
+.second-section h2 {
   font-size: 35px;
   font-family: "Viaoda Libre", cursive;
   font-weight: bold;
@@ -104,5 +104,72 @@ nav {
   width: 80%;
   font-family: "Hind Siliguri", sans-serif;
   text-align: center;
+}
+
+.third-section {
+  margin: auto;
+  width: 100%;
+  max-width: 1024px;
+  height: 400px;
+  background-color: #7CC8EB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-section h2 {
+  padding: 15px 0px;
+  font-family: "Viaoda Libre", cursive;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.31);
+}
+
+.third-section .interact-box {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.interact-box button {
+  text-transform: uppercase;
+  width: 280px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 40px;
+  border: none;
+  padding: 5px 10px;
+  height: 70px;
+  font-size: 14px;
+}
+
+.interact-box img {
+  width: 50px;
+  height: 50px;
+}
+
+.interact-box a {
+  font-family: "Poppins", sans-serif;
+  color: #395B6B;
 }
 /*# sourceMappingURL=style.css.map */
