@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Viaoda+Libre&display=swap");
+*, p {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
 nav {
   font-family: "Roboto", sans-serif;
 }
@@ -39,24 +47,62 @@ nav {
 }
 
 .second-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 100%;
+  height: 1050px;
   max-width: 1024px;
   margin: auto;
-  padding: 30px 3vw;
-  height: 500px;
-  text-align: center;
+  padding: 0px 3vw 40px;
+  background-color: #fff;
 }
 
 .second-section span {
-  height: 50px;
-  width: 50px;
   font-size: 35px;
   font-family: "Viaoda Libre", cursive;
   font-weight: bold;
-  padding: 10px;
+  text-align: center;
 }
 
-.second-section p {
+.second-section .biography {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / 5;
   text-align: justify;
+}
+
+.second-section .text img {
+  max-width: 150px;
+  max-height: 160px;
+}
+
+.second-section .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-section .text p {
+  width: 80%;
+  font-family: "Hind Siliguri", sans-serif;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
