@@ -119,6 +119,7 @@ nav {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     padding: 0px 3vw;
 }
@@ -132,15 +133,15 @@ nav {
     // text-shadow: 2px 2px 5px rgba(0,0,0,0.31);
 }
 
-.third-section .interact-box {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+// .third-section .interact-box {
+//     height: 100%;
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     justify-content: space-evenly;
+// }
 
-.interact-box button {
+.third-section button {
     text-transform: uppercase;
     width: 270px;
     justify-content: center;
@@ -153,16 +154,16 @@ nav {
     font-size: 14px;
 }
 
-.interact-box img {
+.third-section img {
     width: 50px;
     height: 50px;    
 }
 
-.interact-box a {
+.third-section a {
     font-family: $font1;
     color: #000000;
 }
 
-.interact-box p {
+.third-section p {
     text-align: center;
 }
