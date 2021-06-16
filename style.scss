@@ -16,7 +16,7 @@ $font3 : 'Roboto', sans-serif;
 $font4 : 'Viaoda Libre', cursive;
 
 // RESET STYLESHEET
-*, p, h1, h2, h3, h4, h5, h6, body, html {
+*, p, h1, h2, h3, h4, h5, h6, body, html, div {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -133,14 +133,6 @@ nav {
     // text-shadow: 2px 2px 5px rgba(0,0,0,0.31);
 }
 
-// .third-section .interact-box {
-//     height: 100%;
-//     display: flex;
-//     align-items: center;
-//     flex-direction: column;
-//     justify-content: space-evenly;
-// }
-
 .third-section button {
     text-transform: uppercase;
     width: 270px;
@@ -166,4 +158,46 @@ nav {
 
 .third-section p {
     text-align: center;
+}
+
+// FOURTH-SECTION
+
+.fourth-section {
+    background-color: $color4;
+    height: 500px;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 3vw;
+    margin: auto;
+}
+
+.fourth-section h2 {
+    font-size: 35px;
+    font-family: $font4;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fourth-section .social-network {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.social-network img {
+    width: 45px;
+    margin-right: 10px;
+}
+
+.social-network a {
+    font-family: $font3;
+    font-weight: bold;
+    color: #000000;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-bottom: 15px;
 }

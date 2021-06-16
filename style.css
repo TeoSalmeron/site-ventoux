@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Viaoda+Libre&display=swap");
-*, p, h1, h2, h3, h4, h5, h6, body, html {
+*, p, h1, h2, h3, h4, h5, h6, body, html, div {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -174,5 +174,59 @@ nav {
 
 .third-section p {
   text-align: center;
+}
+
+.fourth-section {
+  background-color: #C3E5F5;
+  height: 500px;
+  width: 100%;
+  max-width: 1024px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 3vw;
+  margin: auto;
+}
+
+.fourth-section h2 {
+  font-size: 35px;
+  font-family: "Viaoda Libre", cursive;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.fourth-section .social-network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.social-network img {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.social-network a {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 40px;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
