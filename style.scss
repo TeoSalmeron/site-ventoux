@@ -29,31 +29,42 @@ nav {
     font-family: $font3;
 }
 
+.navbar-brand {
+    font-family: $font4;
+    font-weight: bold;
+}
 // .FIRST-SECTION
 
 .first-section {
     font-family: $font2;
     text-align: center;
     width: 100%;
-    height: 360px;
+    height: 400px;
     max-width: 1024px;
     margin: auto;
-    background-color: $color4;
+    background-color: #fff;
     padding: 30px 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    justify-content: center;
+    justify-content: space-evenly;
+
+    h1 {
+        font-family: $font4;
+        font-weight: bold;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    p {
+        font-family: $font1;
+    }
 }
 
-.first-section h1 {
-    font-family: $font4;
-    font-weight: bold;
-}
-.first-section img {
-    width: 150px;
-}
+
 
 // .SECOND-SECTION
 
@@ -66,7 +77,7 @@ nav {
     max-width: 1024px;
     margin: auto;
     padding: 0px 3vw 40px;
-    background-color: #fff;
+    background-color: $color4;
 }
 
 .second-section h2 { // title "Qui sommes-nous?"
@@ -104,34 +115,37 @@ nav {
     margin: auto;
     width: 100%;
     max-width: 1024px;
-    height: 400px;
-    background-color: $color3;
+    height: 500px;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 3vw;
 }
 
 .third-section h2 {
+    font-size: 33px;
     padding: 15px 0px;
     font-family: $font4;
     font-weight: bold;
-    color: #fff;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.31);
+    color: #000000;
+    // text-shadow: 2px 2px 5px rgba(0,0,0,0.31);
 }
 
 .third-section .interact-box {
     height: 100%;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 .interact-box button {
     text-transform: uppercase;
-    width: 280px;
+    width: 270px;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: $color4;
     border-radius: 40px;
     border: none;
     padding: 5px 10px;
@@ -141,10 +155,14 @@ nav {
 
 .interact-box img {
     width: 50px;
-    height: 50px;
+    height: 50px;    
 }
 
 .interact-box a {
     font-family: $font1;
-    color: $color2;
+    color: #000000;
+}
+
+.interact-box p {
+    text-align: center;
 }
