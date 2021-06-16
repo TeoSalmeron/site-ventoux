@@ -178,7 +178,7 @@ nav {
 
 .fourth-section {
   background-color: #C3E5F5;
-  height: 500px;
+  height: auto;
   width: 100%;
   max-width: 1024px;
   display: -webkit-box;
@@ -216,7 +216,7 @@ nav {
 }
 
 .social-network img {
-  width: 45px;
+  width: 40px;
   margin-right: 10px;
 }
 
@@ -228,5 +228,10 @@ nav {
   padding: 10px 20px;
   border-radius: 40px;
   margin-bottom: 15px;
+}
+
+.fourth-section p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
