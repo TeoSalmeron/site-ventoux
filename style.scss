@@ -23,6 +23,10 @@ $font4 : 'Viaoda Libre', cursive;
     text-decoration: none;
 }
 
+body {
+    background-color:#1F323B;
+}
+
 // NAV
 
 nav {
@@ -36,6 +40,7 @@ nav {
 // .FIRST-SECTION
 
 .first-section {
+    position: relative;
     font-family: $font2;
     text-align: center;
     width: 100%;
@@ -78,6 +83,7 @@ nav {
     margin: auto;
     padding: 0px 3vw 40px;
     background-color: $color4;
+    position: relative;
 }
 
 .second-section h2 { // title "Qui sommes-nous?"
@@ -88,13 +94,7 @@ nav {
 }
 
 .second-section .biography { // text under title
-    grid-column: 1 / 5;
     text-align: justify;
-}
-
-.second-section .text img {
-    max-width: 150px;
-    max-height: 160px;
 }
 
 .second-section .text {
@@ -103,6 +103,11 @@ nav {
     justify-content: center;
     align-items: center;
 }
+.second-section .text img {
+    max-width: 150px;
+    max-height: 160px;
+}
+
 .second-section .text p {
     width: 80%;
     font-family: $font2;
@@ -122,6 +127,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     padding: 0px 3vw;
+    position: relative;
 }
 
 .third-section h2 {
@@ -205,4 +211,85 @@ nav {
 .fourth-section p {
     font-family: $font3;
     text-align: center;
+}
+
+                                                    // MEDIA QUERIES
+
+// TABLET
+
+@media screen and (min-width: 768px) {
+    .first-section {
+
+        img {
+            width: 250px;
+        }
+
+        p {
+            font-family: $font1;
+            font-size: 22px;
+        }
+    }
+
+    .second-section {
+        height: 700px;
+        padding: 3vh 3vw;
+
+        h2 {
+            font-size: 45px;
+        }
+
+        .text {
+            flex-direction: row;
+            width: 60%;
+            margin: auto;
+        }
+    }
+}
+
+// LAPTOP
+
+@media screen and (min-width: 1024px) {
+
+    .fourth-section {
+        background-color: rgba(57, 91, 107, 0.5);
+        width: 60px;
+        position: fixed;
+        top: 50%;
+        right: 0;
+        z-index: 2;
+        transform: translate(0%, -50%);
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+
+        h2 {
+            display: none;
+        }
+
+        p {
+            display: none;
+        }
+
+        img {
+            margin-right: 0px;
+            width: 30px;
+        }
+
+        a {
+            font-size: 0px;
+            padding: 7px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            transition: 0.2s ease-in;
+
+
+            &:hover {
+                transition: 0.2s ease-in;
+                transform: translate(-10px);
+            }
+        }
+        
+        .mail {
+            margin-bottom: 0px;
+        }
+    }
 }
