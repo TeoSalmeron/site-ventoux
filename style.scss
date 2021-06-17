@@ -23,9 +23,6 @@ $font4 : 'Viaoda Libre', cursive;
     text-decoration: none;
 }
 
-body {
-    background-color:#1F323B;
-}
 
 // NAV
 
@@ -54,6 +51,8 @@ nav {
     align-items: center;
     text-transform: uppercase;
     justify-content: space-evenly;
+    -webkit-box-shadow: inset 0px 0px 16px 4px rgba(125,125,125,0.07); 
+    box-shadow: inset 0px 0px 16px 4px rgba(125,125,125,0.07);
 
     h1 {
         font-family: $font4;
@@ -83,6 +82,8 @@ nav {
     margin: auto;
     padding: 0px 3vw 40px;
     background-color: $color4;
+    -webkit-box-shadow: inset 0px 0px 16px 4px rgba(125,125,125,0.07); 
+    box-shadow: inset 0px 0px 16px 4px rgba(125,125,125,0.07);
     position: relative;
 }
 
@@ -117,6 +118,8 @@ nav {
 
 // THIRD SECTION
 .third-section {
+    -webkit-box-shadow: inset 0px 0px 16px 4px rgba(125,125,125,0.07); 
+    box-shadow: inset 0px 0px 16px 4px rgba(125,125,125,0.07);
     margin: auto;
     width: 100%;
     max-width: 1024px;
@@ -251,7 +254,7 @@ nav {
 @media screen and (min-width: 1024px) {
 
     .fourth-section {
-        background-color: rgba(57, 91, 107, 0.5);
+        background-color: rgba(57, 91, 107, 0.3);
         width: 60px;
         position: fixed;
         top: 50%;
@@ -284,7 +287,7 @@ nav {
 
             &:hover {
                 transition: 0.2s ease-in;
-                transform: translate(-10px);
+                transform: translate(-5px);
             }
         }
         

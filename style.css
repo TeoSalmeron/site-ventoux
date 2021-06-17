@@ -8,10 +8,6 @@
   text-decoration: none;
 }
 
-body {
-  background-color: #1F323B;
-}
-
 nav {
   font-family: "Roboto", sans-serif;
 }
@@ -45,6 +41,8 @@ nav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-shadow: inset 0px 0px 16px 4px rgba(125, 125, 125, 0.07);
+  box-shadow: inset 0px 0px 16px 4px rgba(125, 125, 125, 0.07);
 }
 
 .first-section h1 {
@@ -77,6 +75,8 @@ nav {
   margin: auto;
   padding: 0px 3vw 40px;
   background-color: #C3E5F5;
+  -webkit-box-shadow: inset 0px 0px 16px 4px rgba(125, 125, 125, 0.07);
+  box-shadow: inset 0px 0px 16px 4px rgba(125, 125, 125, 0.07);
   position: relative;
 }
 
@@ -119,6 +119,8 @@ nav {
 }
 
 .third-section {
+  -webkit-box-shadow: inset 0px 0px 16px 4px rgba(125, 125, 125, 0.07);
+  box-shadow: inset 0px 0px 16px 4px rgba(125, 125, 125, 0.07);
   margin: auto;
   width: 100%;
   max-width: 1024px;
@@ -266,7 +268,7 @@ nav {
 
 @media screen and (min-width: 1024px) {
   .fourth-section {
-    background-color: rgba(57, 91, 107, 0.5);
+    background-color: rgba(57, 91, 107, 0.3);
     width: 60px;
     position: fixed;
     top: 50%;
@@ -298,8 +300,8 @@ nav {
   .fourth-section a:hover {
     -webkit-transition: 0.2s ease-in;
     transition: 0.2s ease-in;
-    -webkit-transform: translate(-10px);
-            transform: translate(-10px);
+    -webkit-transform: translate(-5px);
+            transform: translate(-5px);
   }
   .fourth-section .mail {
     margin-bottom: 0px;
