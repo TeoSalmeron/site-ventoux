@@ -112,3 +112,12 @@ nav {
     font-family: $font1;
     font-weight: bold;
 }
+
+// MEDIA QUERIES
+
+@media screen and (min-width: 1024px) {
+
+    .event-item {
+        width: 300px;
+    }
+}
