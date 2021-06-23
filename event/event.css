@@ -57,4 +57,57 @@ nav {
 .ev-desc p {
   font-family: "Hind Siliguri", sans-serif;
 }
+
+.ev-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  padding: 20px 10px;
+  border-bottom: 1px solid lightgray;
+  -webkit-box-shadow: inset 0px 0px 5px 3px rgba(214, 214, 214, 0.22);
+  box-shadow: inset 0px 0px 5px 3px rgba(214, 214, 214, 0.22);
+}
+
+.ev-item h3 {
+  padding: 10px 0px;
+  font-family: "Viaoda Libre", cursive;
+  font-weight: bold;
+  color: #49704E;
+}
+
+.ev-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 6px lightgray solid;
+}
+
+.ev-item p {
+  padding: 15px 0px;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.ev-item span {
+  padding: 10px 0px;
+}
+
+.ev-item button {
+  padding: 5px 15px;
+  border: none;
+  background-color: #49704E;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 1.1rem;
+}
 /*# sourceMappingURL=event.css.map */
