@@ -38,86 +38,37 @@ nav {
 // EVENT SECTION
 
 .event-section {
-    // box shadow
-    -webkit-box-shadow: inset 0px 0px 15px -1px rgba(0,0,0,0.17); 
-    box-shadow: inset 0px 0px 15px -1px rgba(0,0,0,0.17);    
     width: 100%;
-    height: auto;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
-    text-align: center;
 }
 
-.event-content {
+// EVENT DESC
+
+.ev-desc {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    text-align: justify;
+    padding: 10px;
     background-color: $color3;
+    color: #fff;
 
     h2 {
         font-family: $font4;
         font-weight: bold;
-    
+        padding: 10px 0px;
     }
 
-    .event-description {
-        padding: 3vh 0px;
-        color: #fff;
+    p {
+        font-family: $font2;
     }
-
-    .event-item {
-        padding: 30px 10vw;
-        height: 500px;
-        width: 110vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        font-family: $font3;
-        -webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.09); 
-        box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.09);
-        background-color: #fff;
-    }
-        
 }
 
-.event-item h3 {
-    font-size: 22px;
-    font-family: $font1;
-    font-weight: bold;
-    background-color: $color3;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 3px 15px;
-}
 
-.event-item img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: 3px solid lightgray;
-}
-
-.event-item p {
-    text-align: center;
-    font-family: $font2;
-}
-
-.event-item button {
-    background-color: $color3;
-    color: #fff;
-    border: none;
-    padding: 5px 20px;
-    border-radius: 20px;
-    font-family: $font1;
-    font-weight: bold;
-}
+// EVENT ITEM
 
 // MEDIA QUERIES
-
-@media screen and (min-width: 1024px) {
-
-    .event-item {
-        width: 300px;
-    }
-}

@@ -18,15 +18,20 @@ nav {
 }
 
 .event-section {
-  -webkit-box-shadow: inset 0px 0px 15px -1px rgba(0, 0, 0, 0.17);
-  box-shadow: inset 0px 0px 15px -1px rgba(0, 0, 0, 0.17);
   width: 100%;
-  height: auto;
+  max-width: 1024px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow: hidden;
-  text-align: center;
 }
 
-.event-content {
+.ev-desc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,80 +42,19 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  text-align: justify;
+  padding: 10px;
   background-color: #49704E;
+  color: #fff;
 }
 
-.event-content h2 {
+.ev-desc h2 {
   font-family: "Viaoda Libre", cursive;
   font-weight: bold;
+  padding: 10px 0px;
 }
 
-.event-content .event-description {
-  padding: 3vh 0px;
-  color: #fff;
-}
-
-.event-content .event-item {
-  padding: 30px 10vw;
-  height: 500px;
-  width: 110vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: "Roboto", sans-serif;
-  -webkit-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.09);
-  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.09);
-  background-color: #fff;
-}
-
-.event-item h3 {
-  font-size: 22px;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  background-color: #49704E;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 3px 15px;
-}
-
-.event-item img {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  border: 3px solid lightgray;
-}
-
-.event-item p {
-  text-align: center;
+.ev-desc p {
   font-family: "Hind Siliguri", sans-serif;
-}
-
-.event-item button {
-  background-color: #49704E;
-  color: #fff;
-  border: none;
-  padding: 5px 20px;
-  border-radius: 20px;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-}
-
-@media screen and (min-width: 1024px) {
-  .event-item {
-    width: 300px;
-  }
 }
 /*# sourceMappingURL=event.css.map */
