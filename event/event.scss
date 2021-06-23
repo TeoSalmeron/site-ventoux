@@ -116,3 +116,22 @@ nav {
 }
 
 // MEDIA QUERIES
+
+@media screen and (min-width: 1024px) {
+
+    .ev-box {
+        padding: 30px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ev-desc {
+        text-align: center;
+    }
+    .ev-item {
+        width: 320px;
+        -webkit-box-shadow: 0px 0px 5px 3px rgba(214,214,214,0.4); 
+        box-shadow: 0px 0px 5px 3px rgba(214,214,214,0.4);
+        border-radius: 10px;
+    }
+}
