@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CDN Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="event.css">
+<!-- Balisage des microdonnées ajouté par l'outil d'aide au balisage de données structurées de Google -->
+<html lang="fr"><head>
+    <meta charset="UTF-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <!--   CDN Bootstrap   -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="event.css"/>
     <title>Le refuge du Ventoux</title>
 </head>
 <body>
-    <!-- NAVBAR -->
+    <!--   NAVBAR   -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Le refuge du Ventoux</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,91 +28,97 @@
           </ul>
         </div>
       </nav>
-    <!-- END NAVBAR -->
+    <!--   END NAVBAR   -->
 
-    <!-- EVENT SECTION -->
+    <!--   EVENT SECTION   -->
     <section class="event-section">
 
-      <div class="ev-desc">
-        <!-- title -->
+      <div itemscope itemtype="http://schema.org/LocalBusiness" class="ev-desc">
+        <!--   title   -->
         <h2>
           Nos événements
         </h2>
-        <!-- text -->
+        <!--   text   -->
         <p>
           Nous organisons régulièrement des événements afin de sensibiliser et rendre vivante notre association.
           Grâce à nos collaborateurs et bénévoles, nous parvenons à organiser des activités et des événements 
           pour émerveiller les enfants en observant la faune sauvage
           ainsi que des interventions de sensibilisation à la préservation de notre territoire.
         </p>
-        <br>
-        <p>
+        <br/>
+        <p itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
           Vous trouverez toutes les informations concernant les événements ci-dessous. N'hésitez pas à
-          nous contacter si vous avez des questions, notre staff est disponible du lundi au vendredi
-          de 9h à 16h.
+          nous contacter si vous avez des questions, notre staff est disponible du 
+<span itemprop="opens" content="Veuillez insérer ici une date/heure valide au format ISO 8601. Exemples : 2015-07-27 ou 2015-07-27T15:30">lundi au vendredi
+          de 9h à 16h.</span>
         </p>
       </div>
 
       <div class="ev-box">
-        <!-- PROTEGEONS LA NATURE -->
-        <div class="ev-item">
-          <!-- title -->
-          <h3>
+        <!--   PROTEGEONS LA NATURE   -->
+        <div itemscope="" itemtype="http://schema.org/Event" class="ev-item">
+          <!--   title   -->
+          <h3 itemprop="name">
             Protégeons la nature
           </h3>
-          <!-- image -->
-          <img src="../img/mont-ventoux.jpg" alt="">
-          <!-- description -->
+          <!--   image   -->
+          <img src="../img/mont-ventoux.jpg" alt=""/>
+          <!--   description   -->
           <p>
-            Accompagnez nous à la découverte de notre parc régional naturel
+            
+<span itemprop="description">Accompagnez nous à la découverte de notre parc régional naturel
             du Mont-Ventoux et contribuez à la préservation
             de notre environnement en participant à une collecte de déchets. Apéro
-            à la fin de la journée.
+            à la fin de la journée</span>.
           </p>
           <span>
-            Samedi 12 juin : 11h00 - 16h00
+            
+<span itemprop="startDate" content="2021-06-12T11:00">Samedi 12 juin 2021</span> : 11h00 - 16h00
           </span>
           <button>
             Participez
           </button>
         </div>
 
-        <!-- TRANSHUMANCE -->
-        <div class="ev-item">
-          <!-- title -->
-          <h3>
+        <!--   TRANSHUMANCE   -->
+        <div itemscope="" itemtype="http://schema.org/Event" class="ev-item">
+          <!--   title   -->
+          <h3 itemprop="name">
             La transhumance
           </h3>
-          <!-- image -->
-          <img src="../img/mouton.jpg" alt="">
-          <!-- description -->
-          <p>
+          <!--   image   -->
+          <img src="../img/mouton.jpg" alt=""/>
+          <!--   description   -->
+          <p itemprop="description">
             Ce dimanche 13 juin, les bergers MONTAGARD de Bédoin organisent une traversée
             avec plus de 4000 moutons depuis le coeur du village. 
           </p>
           <span>
-            Dimanche 13 juin : 17h00 - 20h00
+            
+<span itemprop="startDate" content="2021-06-13T17:00">Dimanche 13 juin 2021</span>: 17h00 - 20h00
           </span>
           <button>
             Participez
           </button>
         </div>
 
-        <!-- SENSIBILISATION -->
-        <div class="ev-item">
-          <!-- title -->
-          <h3>
+        <!--   SENSIBILISATION   -->
+        <div itemscope="" itemtype="http://schema.org/Event" class="ev-item">
+          <!--   title   -->
+          <h3 itemprop="name">
             Sensibilisation à la maltraitance animale
           </h3>
-          <!-- image -->
-          <img src="../img/chevreuil.jpg" alt="">
-          <!-- description -->
+          <!--   image   -->
+          <img src="../img/chevreuil.jpg" alt=""/>
+          <!--   description   -->
           <p>
-            Nous intervenons dans l'école primaire de Malemort-Du-Comtat afin de
-            sensibiliser les plus jeunes à la maltraitance animale. 
+            
+<span itemprop="description">Nous intervenons dans l'école primaire de Malemort-Du-Comtat afin de
+            sensibiliser les plus jeunes à la maltraitance animale</span>. 
           </p>
           <span>
-            Lundi 14 juin : 10h00 - 12h00
+            
+<span itemprop="startDate" content="2021-06-14T10:00">Lundi 14 juin 2021</span> : 10h00 - 12h00
           </span>
           <button>
             Participez
@@ -122,27 +128,27 @@
 
 
     </section>
-    <!-- END EVENT SECTION -->
+    <!--   END EVENT SECTION   -->
 
-     <!-- FOURTH SECTION -->
+     <!--   FOURTH SECTION   -->
      <section class="fourth-section">
       <h2 id="contact">Contact</h2>
       <div class="social-network">
-          <a href="#"><img src="../img/facebook.png" alt="">Facebook</a>
-          <a href="#"><img src="../img/twitter.png" alt="">Twitter</a>
-          <a href="#"><img src="../img/instagram.png" alt="">Instagram</a>
-          <a href="tel:0490619055"><img src="../img/phone-call.png" alt="">Numéro de téléphone</a>
-          <a href="mailto:ventoux@hotmail.fr" class="mail"><img src="../img/email.png" alt="">E-mail</a>
+          <a href="#"><img src="../img/facebook.png" alt=""/>Facebook</a>
+          <a href="#"><img src="../img/twitter.png" alt=""/>Twitter</a>
+          <a href="#"><img src="../img/instagram.png" alt=""/>Instagram</a>
+          <a href="tel:0490619055"><img src="../img/phone-call.png" alt=""/>Numéro de téléphone</a>
+          <a href="mailto:ventoux@hotmail.fr" class="mail"><img src="../img/email.png" alt=""/>E-mail</a>
       </div>
       <p>
           Une question ? Un soucis ? N'hésitez pas à nous contacter, nous ferons notre possible pour répondre
           à vos attentes.
       </p>        
   </section>
-  <!-- END FOURTH SECTION -->
-    <!-- JS Bootstrap -->
+  <!--   END FOURTH SECTION   -->
+    <!--   JS Bootstrap   -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-</html>
+
+</body></html>
